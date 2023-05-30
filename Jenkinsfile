@@ -1,9 +1,9 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('Check code') {
       steps {
-        git(url: 'https://github.com/KonovDan/test-1', branch: 'master')
+        git(url: 'git@github.com:KonovDan/test-1.git', branch: 'master')
       }
     }
 
