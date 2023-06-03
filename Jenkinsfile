@@ -15,7 +15,7 @@ pipeline {
 
     stage('yy') {
       steps {
-        mail(to: 'konovdan2k04@gmail.com', subject: '1', body: '2', from: '6', mimeType: '7')
+        mail(to: 'konovdan2k04@gmail.com', subject: '1', body: '2')
       }
     }
 
